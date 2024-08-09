@@ -67,6 +67,10 @@
                     <input type="file" name="image">
                 </div>
                 <div class="input_deg">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" required></textarea>
+                </div>
+                <div class="input_deg">
                     <input type="submit" class="btn btn-outline-info" value="Update">
                 </div>
             </form>

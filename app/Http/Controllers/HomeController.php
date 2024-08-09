@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\User;
+use App\Models\Comment;
 use App\Models\Post;
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
@@ -117,5 +119,14 @@ class HomeController extends Controller
         }
         $data->save();
         return redirect()->back()->with('message', 'Post Updated Successfully!');
+    }
+    public function addComment(Request $request, $id)
+    {
+        $comment = new Comment();
+        $comment->post_id = $id;
+        $comment->comment = $request->comment;
+        $comment->save();
+
+        return redirect()->back()->with('message', 'Comment added successfully!');
     }
 }

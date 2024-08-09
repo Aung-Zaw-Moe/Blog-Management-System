@@ -49,8 +49,6 @@
         <h3 class="text-primary"><b>{{ $post->title }}</b></h3>
         <h4 class="text-primary">{{ $post->description }}</h4>
         <p class="text-white">Post by : <b>{{ $post->name }}</b></p>
-        <p class="text-white">Comment :<b>{{ $post->comment }}</b></p>
-
 
     </div>
     @include('home.footer')
