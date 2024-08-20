@@ -18,13 +18,24 @@
       @include('admin.sidebar')
       <!-- Sidebar Navigation end-->
       <div class="page-content">
+        <!-- Session Message -->
         @if (session()->has('message'))
             <div class="alert alert-success m-1">
-                <button type="button" class="close" data-dismiss="alert" aria-hideen="true">x</button>
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
                 {{ session()->get('message') }}
             </div>
         @endif
 
+        <!-- Validation Errors Block -->
+        {{-- @if ($errors->any())
+            <div class="alert alert-danger m-1">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif --}}
 
         <div class="container mt-6">
           <div class="card border border-success">
@@ -44,24 +55,33 @@
                     <div class="form-group row">
                       <label for="title" class="col-sm-2 col-form-label mb-2 text-white">Title</label>
                       <div class="col-sm-10">
-                        <input type="text" name="title" id="title" class="form-control border border-dark"  placeholder="Title............." required />
+                        <input type="text" name="title" id="title" class="form-control border border-dark" placeholder="Title............." required />
+                         @error('title')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="description" class="col-sm-2 col-form-label mb-2 text-white">Description</label>
                       <div class="col-sm-10">
                         <textarea name="description" id="description" class="form-control border border-dark" placeholder="Bla..Bla..........."></textarea>
+                         @error('description')
+                        <div class="text-danger">{{ $message }}</div>
+                         @enderror
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="image" class="col-sm-2 col-form-label mb-2 text-white">Image</label>
                       <div class="col-sm-10">
                         <input type="file" name="image" id="image" class="form-control border border-dark" required />
+                        @error('image')
+                        <div class="text-danger">{{ $message }}</div>
+                         @enderror
                       </div>
                     </div>
                     <div class="form-group row">
                       <div class="col-sm-2"></div>
-                      <div class="d-grid gap-2 col-2  mx-auto">
+                      <div class="d-grid gap-2 col-2 mx-auto">
                         <button type="submit" name="submit" id="submit" class="btn btn-outline-light">
                           SUBMIT
                         </button>

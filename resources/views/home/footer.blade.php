@@ -14,12 +14,12 @@
                         <img src="images/call-icon.png" />
                     </div>
                     <div class="call_text">
-                        <a href="#">Call +01 1234567890</a>
+                        <a href="#">Call +959 769000788</a>
                     </div>
                     <div class="call_text">
                         <img src="images/mail-icon.png" />
                     </div>
-                    <div class="call_text"><a href="#">demo@gmail.com</a></div>
+                    <div class="call_text"><a href="#">aungzawmoe3199@gmail.com</a></div>
                 </div>
                 <div class="social_icon">
                     <ul>
@@ -47,11 +47,11 @@
         </div>
         <!-- footer section end -->
         <!-- copyright section start -->
-        <div class="copyright_section">
+        <div class="copyright_section bg-secondary">
             <div class="container">
-                <p class="copyright_text">
-                    2020 All Rights Reserved. Design by
-                    <a href="https://html.design">Free html Templates</a>
+                <p class="copyright_text text-light ">
+                    <b>2024 All Rights Reserved. Design by</b>
+                    <a href="https://html.design" class="text-light">Blog Management System</a>
                 </p>
             </div>
         </div>

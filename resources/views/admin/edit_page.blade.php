@@ -16,7 +16,7 @@
     @include('admin.header')
     <div class="d-flex align-items-stretch">
       @include('admin.sidebar')
-      <div class="page-content bg-white">
+      <div class="page-content bg-dark">
         @if (session()->has('message'))
             <div class="alert alert-success m-1">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
@@ -24,9 +24,20 @@
             </div>
         @endif
 
+        <!-- Validation Errors Block -->
+        {{-- @if ($errors->any())
+            <div class="alert alert-danger m-1">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif --}}
+
         <div class="container mt-6">
           <div class="card border border-success">
-            <div class="card-header justify-content-between font-weight-bold bg-primary text-dark border-bottom">
+            <div class="card-header justify-content-between font-weight-bold bg-info text-dark border-bottom">
               Edit Page
               <a class="text-success float-right" href="{{ url('show_post') }}">
                 <button type="button" class="btn btn-outline-dark btn-sm">
@@ -43,12 +54,18 @@
                       <label for="title" class="col-sm-2 col-form-label mb-2">Title</label>
                       <div class="col-sm-10">
                         <input type="text" name="title" id="title" class="form-control border border-success" value="{{ $post->title }}" required />
+                        @error('title')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="description" class="col-sm-2 col-form-label mb-2">Description</label>
                       <div class="col-sm-10">
                         <textarea name="description" id="description" class="form-control border border-success" required>{{ $post->description }}</textarea>
+                        @error('description')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                       </div>
                     </div>
                     <div class="form-group row">
@@ -61,6 +78,9 @@
                       <label for="image" class="col-sm-2 col-form-label mb-2">New Image</label>
                       <div class="col-sm-10">
                         <input type="file" name="image" id="image" class="form-control border border-success" />
+                        @error('image')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                       </div>
                     </div>
                     <div class="form-group row">

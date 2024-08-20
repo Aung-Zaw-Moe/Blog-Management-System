@@ -1,13 +1,13 @@
 <nav id="sidebar">
         <!-- Sidebar Header-->
-        <div class="sidebar-header d-flex align-items-center bg-warning">
+        {{-- <div class="sidebar-header d-flex align-items-center bg-warning">
           <div class="avatar bg-info"><img src="admincss/img/avatar-12.jpg" height="80px" alt="..." class="img-fluid rounded-circle"></div>
           <div class="title">
             <h1 class="h5">Aung Zaw Moe</h1>
             <p>Web Developer</p>
           </div>
-        </div>
-        <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+        </div> --}}
+        <!-- Sidebar Navidation Menus--><span class="heading text-info ">Main Sidebar</span>
         <ul class="list-unstyled">
                 <li class="active"><a href="{{ url('home') }}"> <i class="icon-home"></i>Home </a></li>
                 <li class="text-white"><a href="{{ url('create') }}"> <i class="icon-grid"></i>Add-Post </a></li>

@@ -4,7 +4,7 @@
         <!-- basic -->
         @include('home.homecss')
     </head>
-    <body class="bg-dark">
+    <body class="">
         <!-- header section start -->
         <div class="header_section">
             @include('home.header')

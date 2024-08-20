@@ -243,21 +243,21 @@ button {
 
 .logo {
     width: 100%;
-    float: left;
+    float: right;
     text-align: center;
     padding: 20px 0px 50px 0px;
 }
 
 .logo_mobile {
     width: 100%;
-    float: left;
+    float: right;
     text-align: center;
     padding-bottom: 20px;
 }
 
 .mobile_menu {
     width: 100%;
-    float: left;
+    float: right;
     display: none;
 }
 
@@ -325,7 +325,7 @@ button {
 
 .menu_main li a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #121118;
 }
 
 .mb-lg-0,
@@ -393,7 +393,7 @@ button {
 }
 
 .read_bt a:hover {
-    background-color: #2b2278;
+    background-color: #0a0a0d;
     color: #ffffff;
 }
 
@@ -448,7 +448,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #030303;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -527,7 +527,7 @@ button {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #19181f;
 }
 
 .about_img {
@@ -727,7 +727,7 @@ button {
 }
 
 .carousel-indicators .active {
-    background-color: #2b2278;
+    background-color: #0d0c10;
 }
 
 
@@ -780,7 +780,7 @@ button {
 }
 
 .read_bt_1 a:hover {
-    background-color: #2b2278;
+    background-color: #191821;
     color: #ffffff;
 }
 
@@ -812,7 +812,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #17171b;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -885,7 +885,7 @@ button {
 }
 .send_btn a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #131317;
 }
 /* contact section end */
 
@@ -933,7 +933,7 @@ button {
     width: 170px;
     float: left;
     font-size: 18px;
-    color: #2b2278;
+    color: #49494d;
     background-color: transparent;
     padding: 5px 0px;
     text-align: center;

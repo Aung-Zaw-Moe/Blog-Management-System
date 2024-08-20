@@ -3,8 +3,8 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about_taital_main">
-                            <h1 class="about_taital">About Us</h1>
-                            <p class="about_text">
+                            <h1 class="about_taital text-dark">About Us</h1>
+                            <p class="about_text text-dark">
                                 There are many variations of passages of Lorem
                                 Ipsum available, but the majority have suffered
                                 alteration in some form, by injected humour, or
@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-md-6 padding_right_0">
                         <div>
-                            <img src="images/about-img.png" class="about_img" />
+                            <img src="images/about6-img.png" class="about_img"  />
                         </div>
                     </div>
                 </div>
