@@ -60,10 +60,9 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## Security Vulnerabilities
 
 ![HomePage](https://github.com/user-attachments/assets/d9a08dd3-d0a2-4ae2-bf1e-5eaa39a58d38)
-![Blog-Post](https://github.com/user-attachments/assets/f7532c90-d81f-4671-928d-4f0e7df4bc1d)
-
-![About-Post](https://github.com/user-attachments/assets/64db9fd5-1240-409b-939b-69819a75472f)
-![Footer-1](https://github.com/user-attachments/assets/d14827e5-e062-4125-8e72-81432f086920)
+![Blog-Post](https://github.com/user-attachments/assets/0da4a6aa-2c99-429c-a151-b59b7561d580)
+![About-Post](https://github.com/user-attachments/assets/66ae9a95-2f69-4ef1-8a4f-a179dd0e933c)
+![Footer-1](https://github.com/user-attachments/assets/226b4719-be0c-4bb9-ae5a-2caf37a411de)
 ![AdminDashboard](https://github.com/user-attachments/assets/e760d12b-652f-45f8-9c83-681a4a412775)
 
 
