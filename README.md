@@ -66,6 +66,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ![About-Post](https://github.com/user-attachments/assets/66ae9a95-2f69-4ef1-8a4f-a179dd0e933c)
 ![Footer-1](https://github.com/user-attachments/assets/226b4719-be0c-4bb9-ae5a-2caf37a411de)
 ![Admin_AllPost](https://github.com/user-attachments/assets/b1cada40-3ab5-4c8e-b728-bcdd9212db85)
+![Admin_Show](https://github.com/user-attachments/assets/966e5217-6653-426b-a801-7c0716417e0b)
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
